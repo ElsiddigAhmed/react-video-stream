@@ -1,6 +1,6 @@
 {
   "name": "react-video-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A React Library For Video And Audio Streaming With Custom Http Headers",
   "author": "AlsiddigAhmed",
   "license": "MIT",
