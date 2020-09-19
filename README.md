@@ -21,7 +21,7 @@ import React from 'react'
 import { Video } from 'react-video-stream'
 const url = 'http://example.com/manifest.mpd'
 
-const options: any = {
+const options = {
   requestHeader: 'Authorization',
   requestToken: 'access_token'
 }
