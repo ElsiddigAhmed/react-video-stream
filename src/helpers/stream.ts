@@ -10,12 +10,15 @@ export const useDash = (props: dash) => {
       'RequestModifier',
       function () {
         return {
-          modifyRequestHeader: (xhr: any) => {
-            xhr.setRequestHeader(props.requestHeader, props.requestToken)
+          modifyRequestHeader: function (xhr: XMLHttpRequest) {
+            xhr.setRequestHeader(
+              `${props.requestHeader}`,
+              `${props.requestToken}`
+            )
 
             return xhr
           },
-          modifyRequestURL: (url: string) => {
+          modifyRequestURL: function (url: string) {
             return `${url}?${props.query}`
           }
         }

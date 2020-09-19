@@ -10,7 +10,7 @@ export interface props {
 }
 
 export interface dash {
-  requestHeader?: 'Authorization' | 'none'
+  requestHeader?: 'Authorization' | 'none' | string
   requestToken?: string
   query?: string
   autoPlay?: boolean

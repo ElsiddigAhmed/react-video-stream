@@ -12,9 +12,11 @@ export const Video = (props: props) => {
     requestToken: props.options?.requestToken,
     query: props.options?.query
   })
+
   return (
     <video
       id='video'
+      loop
       className={props.className}
       controls={props.controls}
       style={props.style}
