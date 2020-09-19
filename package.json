@@ -4,7 +4,7 @@
   "description": "A React Library For Video And Audio Streaming With Custom Http Headers",
   "author": "AlsiddigAhmed",
   "license": "MIT",
-  "repository": "AlsiddigAhmed/react-video-stream",
+  "repository": "ElsiddigAhmed/react-video-stream",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
